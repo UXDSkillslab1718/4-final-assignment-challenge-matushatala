@@ -80,6 +80,9 @@ a {
 a:hover {
   color: #ff0000;
 }
+a:active {
+  color: #1573dd;
+}
 
 .content-wrap {
   width: 50%;
