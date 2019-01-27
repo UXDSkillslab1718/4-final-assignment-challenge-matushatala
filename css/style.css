@@ -1,0 +1,317 @@
+/* Color palette
+
+#ffffff - white
+#f8f8f8 - light grey
+#000000 - black
+#ff0000 - red
+#1573dd - blue
+
+*/
+
+/* Fonts
+------------------------------------*/
+@font-face {
+    font-family: 'Maison Neue';
+    src: url('https://demo.matushatala.com/fonts/MaisonNeue-Bold.eot');
+    src: url('https://demo.matushatala.com/fonts/MaisonNeue-Bold.eot?#iefix') format('embedded-opentype'),
+         url('https://demo.matushatala.com/fonts/MaisonNeue-Bold.woff2') format('woff2'),
+         url('https://demo.matushatala.com/fonts/MaisonNeue-Bold.woff') format('woff'),
+         url('https://demo.matushatala.com/fonts/MaisonNeue-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Maison Neue Mono';
+    src: url('https://demo.matushatala.com/fonts/MaisonNeue-Mono.eot');
+    src: url('https://demo.matushatala.com/fonts/MaisonNeue-Mono.eot?#iefix') format('embedded-opentype'),
+         url('https://demo.matushatala.com/fonts/MaisonNeue-Mono.woff2') format('woff2'),
+         url('https://demo.matushatala.com/fonts/MaisonNeue-Mono.woff') format('woff'),
+         url('https://demo.matushatala.com/fonts/MaisonNeue-Mono.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Global styles
+------------------------------------*/
+
+body {
+    background: #ffffff;
+    margin: 50px auto;
+    float: none;
+    padding: 60px;
+    font-family: 'Maison Neue Mono', monospace;
+    font-weight: normal;
+    -webkit-animation: fadein 2s;
+       -moz-animation: fadein 2s;
+        -ms-animation: fadein 2s;
+         -o-animation: fadein 2s;
+            animation: fadein 2s;
+}
+/* Fade in on load */
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+h1, h2, h3 {
+  font-family: 'Maison Neue', sans-serif;
+  font-weight: bold;
+}
+
+a {
+  color: #1573dd;
+}
+a:hover {
+  color: #ff0000;
+}
+
+.content-wrap {
+  width: 50%;
+  float: left;
+  padding: 0 80px 0 0;
+}
+.img-wrap {
+  float: right;
+  width: 30%;
+}
+@media (max-width: 1070px) {
+  .content-wrap {
+    max-width: 900px!important;
+    float: none;
+    margin: auto;
+    padding: 0;
+    width: auto;
+  }
+  .img-wrap {
+    float: none;
+    margin: auto;
+    max-width: 300px;
+  }
+  h1 {
+    font-size: 160px!important;
+    line-height: 150px!important;
+    text-align: center;
+  }
+  img {
+    position: static!important;
+  }
+  nav {
+    text-align: center;
+  }
+  header h2 {
+    margin: auto;
+    text-align: center;
+    padding: 45px 20px 45px 20px!important;
+  }
+  footer p {
+    text-align: center;
+  }
+  #left-a-little {
+    padding-left: 0;
+  }
+  #hire-me {
+    position: static!important;
+  }
+}
+@media (max-width: 768px) {
+  nav a {
+    padding: 10px 15px;
+  }
+  .content-wrap {
+    max-width: 600px!important;
+    float: none;
+    margin: auto;
+    padding: 0;
+    width: auto;
+  }
+  .img-wrap {
+    float: none;
+    margin: auto;
+    max-width: 300px;
+  }
+  h1 {
+    font-size: 120px!important;
+    line-height: 110px!important;
+    text-align: center;
+  }
+  img {
+    position: static!important;
+  }
+  nav {
+    text-align: center;
+  }
+  header h2 {
+    margin: auto;
+    text-align: center;
+    padding: 45px 20px 45px 20px;
+  }
+  footer p {
+    text-align: center;
+  }
+  #left-a-little {
+    padding-left: 0;
+  }
+  #hire-me {
+    position: static!important;
+  }
+}
+@media (max-width: 480px) {
+  nav a {
+    padding: 10px 15px;
+  }
+  .content-wrap {
+    max-width: 400px!important;
+    float: none;
+    margin: auto;
+    padding: 0;
+    width: auto;
+  }
+  .img-wrap {
+    float: none;
+    margin: auto;
+    max-width: 300px;
+  }
+  h1 {
+    font-size: 100px!important;
+    line-height: 90px!important;
+    text-align: center;
+  }
+  img {
+    position: static!important;
+  }
+  nav {
+    text-align: center;
+  }
+  header h2 {
+    margin: auto;
+    text-align: center;
+    padding: 45px 20px 45px 20px;
+  }
+  footer p {
+    text-align: center;
+  }
+  #left-a-little {
+    padding-left: 0;
+  }
+  #hire-me {
+    position: static!important;
+  }
+}
+@media (max-width: 400px) {
+  nav a {
+    padding: 10px 15px;
+  }
+  .content-wrap {
+    max-width: 380px!important;
+    float: none;
+    margin: auto;
+    padding: 0;
+    width: auto;
+  }
+  .img-wrap {
+    float: none;
+    margin: auto;
+    max-width: 300px;
+  }
+  h1 {
+    font-size: 80px!important;
+    line-height: 70px!important;
+    text-align: center;
+  }
+  img {
+    position: static!important;
+  }
+  nav {
+    text-align: center;
+  }
+  header h2 {
+    margin: auto;
+    text-align: center;
+    padding: 45px 20px 45px 20px;
+  }
+  footer p {
+    text-align: center;
+  }
+  #left-a-little {
+    padding-left: 0;
+  }
+  #hire-me {
+    position: static!important;
+  }
+}
+#left-a-little {
+  padding-left: 20px;
+}
+
+/* Header & Footer
+------------------------------------*/
+img {
+  max-width: 350px;
+  position: fixed;
+  border-radius: 5px;
+}
+#hire-me {
+  position: fixed;
+  display: block;
+  font-family: 'Maison Neue', sans-serif;
+  font-weight: bold;
+  transform: translateX(-30px) translateY(30px);
+  font-size: 22px;
+}
+#hire-me a {
+  text-decoration: none;
+}
+h1 {
+  font-size: 200px;
+  margin-bottom: 25px;
+  line-height: 190px;
+  margin-left: 6px;
+}
+header h2 {
+  max-width: 540px;
+  padding: 45px 0 45px 20px;
+  border-radius: 5px;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.05);
+  background: rgb(248,248,248);
+  background: -moz-linear-gradient(45deg, rgba(248,248,248,1) 0%, rgba(255,255,255,1) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(248,248,248,1) 0%,rgba(255,255,255,1) 100%);
+  background: linear-gradient(45deg, rgba(248,248,248,1) 0%,rgba(255,255,255,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8f8f8', endColorstr='#ffffff',GradientType=1 );
+}
+
+/* Navigation
+------------------------------------*/
+/* no fixed position because I didn't like the way it looked */
+nav a {
+  padding: 10px 20px;
+  color: #000;
+}
+
+/* Footer
+------------------------------------*/
+footer div a {
+  display: block;
+}
+
+footer p:last-child {
+  opacity: .6;
+}
+footer p:last-child:hover {
+  opacity: 1;
+}
