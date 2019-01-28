@@ -8,7 +8,7 @@
 
 */
 
-/* Header & Footer
+/* Header
 ------------------------------------*/
 h1 {
   font-size: 100px;
@@ -50,7 +50,7 @@ h1 {
 /* Contact form
 ------------------------------------*/
 #contact-form {
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 input, textarea {
   font-family: 'Maison Neue Mono', monospace;
@@ -61,11 +61,15 @@ input, textarea {
   padding: 15px 30px;
   display: block;
   margin-top: 10px;
-  animation: all .2s ease-in-out;
+  animation: all .4s ease-in-out;
 }
 input:focus, textarea:focus, input:hover, textarea:hover {
   border-color: rgba(0,0,0,1);
 }
-label:nth-child(2) {
+.btn-send, .text-message {
   margin-top: 20px;
+}
+.btn-send:hover {
+  color: #ffffff;
+  background: #000000;
 }
