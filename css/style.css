@@ -81,7 +81,10 @@ a:hover {
   color: #ff0000;
 }
 a:active {
-  color: #1573dd;
+  color: #000000;
+}
+a:visited {
+  color: #3594ff;
 }
 
 .content-wrap {

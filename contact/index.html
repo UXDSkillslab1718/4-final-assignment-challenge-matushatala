@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Matus Hatala</title>
+    <link rel="stylesheet" href="https://demo.matushatala.com/css/style.css">
+    <link rel="stylesheet" href="extra-styling.css">
+    <meta name="robots" content="noindex">
+</head>
+<body>
+
+    <!-- // Intro -->
+    <header>
+      <nav>
+        <a href="https://demo.matushatala.com/#bio">About</a>
+        <a href="https://demo.matushatala.com/#work">Work Experience</a>
+        <a href="https://demo.matushatala.com/#edu">Education</a>
+        <a href="https://demo.matushatala.com/contact">Contact</a>
+      </nav>
+      <div class="content-wrap">
+        <h1>Contact me</h1>
+      </div>
+    </header>
+  <div class="content-wrap" id="left-a-little">
+    <main>
+        <form id="contact-form" method="post" action="contact.php" role="form">
+
+            <div class="messages"></div>
+
+            <div class="controls">
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="form_email">Email *</label>
+                            <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label for="form_message">Message *</label>
+                            <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <input type="submit" class="btn btn-success btn-send" value="Send message">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <p class="text-muted">
+                            <strong>*</strong> These fields are required.</p>
+                    </div>
+                </div>
+            </div>
+
+          </form>
+
+    </main>
+
+    <!-- // Footer & contact info -->
+    <footer id="contact">
+        <h2>Hey! Let's keep in touch on social media.</h2>
+
+        <!-- Social media links. Add or remove any networks. -->
+        <div>
+            <a href="mailto:hey@matushatala.com" target="_blank">hey@matushatala.com</a>
+            <a href="https://matushatala.com" target="_blank">matushatala.com</a>
+            <a href="https://twitter.com/matushatala" target="_blank">Twitter</a>
+            <a href="https://www.linkedin.com/in/matushatala/" target="_blank">LinkedIn</a>
+            <a href="https://www.behance.net/matushatala" target="_blank">Behance</a>
+        </div>
+
+        <p>Copyright © 2018 Matus Hatala</p>
+    </footer>
+  </div>
+  <!-- Some scripts for contact form - it actually works -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js" integrity="sha256-dHf/YjH1A4tewEsKUSmNnV05DDbfGN3g7NMq86xgGh8=" crossorigin="anonymous"></script>
+    <script src="contact.js"></script>
+</body>
+</html>
