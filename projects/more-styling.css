@@ -1,0 +1,31 @@
+img {
+  width: 100%;
+}
+.content-wrapper {
+  width: 100%;
+}
+.img-wrap {
+width: 100%;
+  float: none;
+}
+
+.D-btn {
+  padding: 14px 30px;
+  font-size: 16px;
+  font-family: 'Maison Neue Mono', monospace;
+  font-weight: normal;
+  color: #000;
+  border: 1px solid rgba(0,0,0,0.5);
+  margin: 20px 0 40px 0;
+  display: table;
+}
+
+.D-btn:hover {
+  border: 1px solid rgba(0,0,0,1);
+  color: #fff;
+  background: #000;
+}
+
+main {
+  margin: 40px 0;
+}
