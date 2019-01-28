@@ -41,6 +41,7 @@ body {
     padding: 60px;
     font-family: 'Maison Neue Mono', monospace;
     font-weight: normal;
+    font-size: 16px;
     -webkit-animation: fadein 2s;
        -moz-animation: fadein 2s;
         -ms-animation: fadein 2s;
