@@ -1,0 +1,53 @@
+/* Color palette
+
+#ffffff - white
+#f8f8f8 - light grey
+#000000 - black
+#ff0000 - red
+#1573dd - blue
+
+*/
+
+/* Global styles
+------------------------------------*/
+
+body {
+    background: #000000!important;
+    color: #ffffff;
+    width: 100%;
+}
+.content-wrap {
+  width: 100%;
+}
+h1 {
+  font-size: 150px;
+  line-height: 160px;
+  margin-left: 18px;
+  hyphens: auto;
+}
+header h2 {
+  background: linear-gradient(45deg, rgb(12, 12, 12) 0%,rgb(31, 31, 31) 100%);
+}
+
+/* Header
+------------------------------------*/
+.logo img {
+  filter: invert(1) hue-rotate(180deg);
+  position: fixed;
+  margin-top: -300px;
+}
+nav a {
+  color: #ffffff;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+section {
+  maxwidth: 80%;
+  margin:auto;
+  line-height: 1.2;
+}
