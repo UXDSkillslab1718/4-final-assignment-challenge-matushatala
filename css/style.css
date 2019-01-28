@@ -106,6 +106,7 @@ a:active {
     float: none;
     margin: auto;
     max-width: 300px;
+    margin-top: 50px;
   }
   h1 {
     font-size: 160px!important;
@@ -131,6 +132,7 @@ a:active {
   }
   #hire-me {
     position: static!important;
+    transform: translateX(50%) translateY(-300%);
   }
 }
 @media (max-width: 768px) {
@@ -176,6 +178,9 @@ a:active {
   }
 }
 @media (max-width: 480px) {
+  .logo img {
+    transform: translateY(-80px) translateX(50%);
+  }
   nav a {
     padding: 10px 15px;
   }
@@ -190,6 +195,7 @@ a:active {
     float: none;
     margin: auto;
     max-width: 300px;
+    width: 100%;
   }
   h1 {
     font-size: 100px!important;
@@ -265,6 +271,19 @@ a:active {
 
 /* Header & Footer
 ------------------------------------*/
+.logo {
+  position: absolute;
+}
+.logo img {
+  width: 150px;
+  margin-top: -80px;
+  margin-left: -10px;
+}
+@media (max-width: 1070px) {
+  .logo img {
+    transform: translateX(170%) translateY(-80px);
+  }
+}
 .wrapper {
   display: flex;
   justify-content: center;
